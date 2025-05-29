@@ -187,3 +187,32 @@ com.google.gson.JsonParseException: Not a boolean: "true"
 [04:15:00] [Server thread/INFO]: Luis512MC issued server command: /kill @e
 [04:15:00] [Server thread/INFO]: Luis512MC was killed
 [04:15:00] [Server thread/INFO]: [Luis512MC: Killed 372 entities]
+[04:24:36] [Server thread/INFO]: Luis512MC issued server command: /setworldspawn
+[04:24:36] [Server thread/INFO]: [Luis512MC: Set the world spawn point to 41, 111, -59 [0.0]]
+[04:25:24] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"Bienvenido!"'}
+[04:25:24] [Server thread/ERROR]: Display entityNot a string
+[04:25:24] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:25:42] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:25:42] [Server thread/INFO]: Luis512MC was killed
+[04:25:42] [Server thread/INFO]: [Luis512MC: Killed 102 entities]
+[04:26:05] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"Bienvenido!"'}
+[04:26:05] [Server thread/ERROR]: Display entityNot a string
+[04:26:05] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:26:20] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:26:20] [Server thread/INFO]: Luis512MC was killed
+[04:26:20] [Server thread/INFO]: [Luis512MC: Killed 160 entities]
+[04:26:44] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"Bienvenido!"'}
+[04:26:44] [Server thread/ERROR]: Display entityNot a string
+[04:26:44] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:27:17] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"al server de los papus VIP"'}
+[04:27:17] [Server thread/ERROR]: Display entityNot a string
+[04:27:17] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:27:36] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:27:36] [Server thread/INFO]: Luis512MC was killed
+[04:27:36] [Server thread/INFO]: [Luis512MC: Killed 168 entities]
+[04:28:14] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"Bienvenido!"'}
+[04:28:14] [Server thread/ERROR]: Display entityNot a string
+[04:28:14] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:28:19] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"al server de los papus VIP"'}
+[04:28:19] [Server thread/ERROR]: Display entityNot a string
+[04:28:19] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
