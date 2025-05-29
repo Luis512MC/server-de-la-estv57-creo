@@ -82,3 +82,108 @@
 [04:01:24] [Server thread/INFO]: [Luis512MC: Gave 1 [Command Block] to Luis512MC]
 [04:03:14] [Server thread/INFO]: Luis512MC issued server command: /give Luis512MC minecraft:barrier
 [04:03:14] [Server thread/INFO]: [Luis512MC: Gave 1 [Barrier] to Luis512MC]
+[04:09:02] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"COLOCAR Bienvenido crack","color":"red","bold":"true"}',CustomNameVisible:1b}
+[04:09:02] [Server thread/WARN]: Failed to parse entity custom name {"text":"COLOCAR Bienvenido crack","color":"red","bold":"true"}
+com.google.gson.JsonParseException: Not a boolean: "true"
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.network.chat.Component$Serializer.deserialize(Component.java:248) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.network.chat.Component$Serializer.fromJson(Component.java:264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.Entity.load(Entity.java:2580) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.lambda$create$26(EntityType.java:1370) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.Util.ifElse(Util.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:1365) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:1361) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.loadStaticEntity(EntityType.java:1461) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.loadEntityRecursive(EntityType.java:1404) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.createEntity(SummonCommand.java:83) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.spawnEntity(SummonCommand.java:106) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.lambda$register$3(SummonCommand.java:61) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:09:02] [Server thread/INFO]: [Luis512MC: Summoned new Armor Stand]
+[04:09:21] [Server thread/INFO]: Luis512MC issued server command: /kill 7f422ca1-5159-4c26-bb7e-3b23cd61f382
+[04:09:21] [Server thread/INFO]: [Luis512MC: Killed Armor Stand]
+[04:09:29] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"COLOCAR Bienvenido crack","color":"red","bold":"true"}',CustomNameVisible:1b}
+[04:09:29] [Server thread/WARN]: Failed to parse entity custom name {"text":"COLOCAR Bienvenido crack","color":"red","bold":"true"}
+com.google.gson.JsonParseException: Not a boolean: "true"
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.network.chat.Component$Serializer.deserialize(Component.java:248) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.network.chat.Component$Serializer.fromJson(Component.java:264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.Entity.load(Entity.java:2580) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.lambda$create$26(EntityType.java:1370) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.Util.ifElse(Util.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:1365) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:1361) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.loadStaticEntity(EntityType.java:1461) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.world.entity.EntityType.loadEntityRecursive(EntityType.java:1404) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.createEntity(SummonCommand.java:83) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.spawnEntity(SummonCommand.java:106) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.commands.SummonCommand.lambda$register$3(SummonCommand.java:61) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:09:29] [Server thread/INFO]: [Luis512MC: Summoned new Armor Stand]
+[04:09:37] [Server thread/INFO]: Luis512MC issued server command: /kill 7f422ca1-5159-4c26-bb7e-3b23cd61f382
+[04:09:47] [Server thread/INFO]: Luis512MC issued server command: /kill
+[04:09:47] [Server thread/INFO]: Luis512MC was killed
+[04:09:47] [Server thread/INFO]: [Luis512MC: Killed Luis512MC]
+[04:10:16] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:10:16] [Server thread/INFO]: Luis512MC was killed
+[04:10:16] [Server thread/INFO]: [Luis512MC: Killed 211 entities]
+[04:13:20] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"This is Text"'}
+[04:13:20] [Server thread/ERROR]: Display entityNot a string
+[04:13:20] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:14:05] [Server thread/INFO]: Luis512MC issued server command: /kill allname
+[04:14:11] [Server thread/INFO]: Luis512MC issued server command: /kill
+[04:14:11] [Server thread/INFO]: Luis512MC was killed
+[04:14:11] [Server thread/INFO]: [Luis512MC: Killed Luis512MC]
+[04:15:00] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:15:00] [Server thread/INFO]: Luis512MC was killed
+[04:15:00] [Server thread/INFO]: [Luis512MC: Killed 372 entities]
