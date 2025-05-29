@@ -76,3 +76,9 @@
 [03:56:51] [Server thread/INFO]: Luis512MC joined the game
 [03:56:51] [Server thread/INFO]: Luis512MC[/127.48.121.197:59355] logged in with entity id 256 at ([world]33.926282890078866, 114.0, -57.494587254709465)
 [03:57:29] [Server thread/INFO]: Made Luis512MC a server operator
+[03:58:15] [Server thread/INFO]: Luis512MC issued server command: /gamemode creative
+[03:58:15] [Server thread/INFO]: [Luis512MC: Set own game mode to Creative Mode]
+[04:01:24] [Server thread/INFO]: Luis512MC issued server command: /give Luis512MC minecraft:command_block
+[04:01:24] [Server thread/INFO]: [Luis512MC: Gave 1 [Command Block] to Luis512MC]
+[04:03:14] [Server thread/INFO]: Luis512MC issued server command: /give Luis512MC minecraft:barrier
+[04:03:14] [Server thread/INFO]: [Luis512MC: Gave 1 [Barrier] to Luis512MC]
