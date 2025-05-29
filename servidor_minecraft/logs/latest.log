@@ -239,3 +239,15 @@ com.google.gson.JsonParseException: Not a boolean: "true"
 [04:46:51] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
 [04:48:17] [Server thread/INFO]: Luis512MC issued server command: /give Luis512MC minecraft:light
 [04:48:17] [Server thread/INFO]: [Luis512MC: Gave 1 [Light] to Luis512MC]
+[04:54:39] [Server thread/INFO]: Luis512MC issued server command: /setworldspawn
+[04:54:39] [Server thread/INFO]: [Luis512MC: Set the world spawn point to 38, 111, -57 [0.0]]
+[04:55:06] [Server thread/INFO]: Luis512MC issued server command: /kill
+[04:55:06] [Server thread/INFO]: Luis512MC was killed
+[04:55:06] [Server thread/INFO]: [Luis512MC: Killed Luis512MC]
+[04:55:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
+{aem<--[HERE]
+[04:58:26] [Server thread/INFO]: Luis512MC issued server command: /gamerule spawnRadius 0
+[04:58:26] [Server thread/INFO]: [Luis512MC: Gamerule spawnRadius is now set to: 0]
+[04:58:33] [Server thread/INFO]: Luis512MC issued server command: /kill
+[04:58:33] [Server thread/INFO]: Luis512MC was killed
+[04:58:33] [Server thread/INFO]: [Luis512MC: Killed Luis512MC]
