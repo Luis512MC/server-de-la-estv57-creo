@@ -216,3 +216,10 @@ com.google.gson.JsonParseException: Not a boolean: "true"
 [04:28:19] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"al server de los papus VIP"'}
 [04:28:19] [Server thread/ERROR]: Display entityNot a string
 [04:28:19] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:34:14] [Server thread/INFO]: Luis512MC issued server command: /summon minecraft:text_display ~ ~ ~ {text:'"Spawn del mundo, servidor en Java"'}
+[04:34:14] [Server thread/ERROR]: Display entityNot a string
+[04:34:14] [Server thread/INFO]: [Luis512MC: Summoned new Text Display]
+[04:34:28] [Server thread/INFO]: Luis512MC issued server command: /kill @e
+[04:34:28] [Server thread/INFO]: Luis512MC was killed
+[04:34:28] [Server thread/INFO]: [Luis512MC: Killed 106 entities]
+[04:35:20] [Server thread/INFO]: Luis512MC has made the advancement [Glow and Behold!]
