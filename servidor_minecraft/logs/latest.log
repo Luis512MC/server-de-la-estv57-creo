@@ -88,3 +88,6 @@
 [02:45:59] [Server thread/INFO]: Running delayed init tasks
 [02:45:59] [Server thread/INFO]: Done (22.636s)! For help, type "help"
 [02:45:59] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:03:56] [User Authenticator #0/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
+[03:04:00] [Server thread/INFO]: Luis512MC joined the game
+[03:04:00] [Server thread/INFO]: Luis512MC[/127.48.121.197:34395] logged in with entity id 12 at ([world]-961.57244242151, 65.0, -2219.569815026969)
