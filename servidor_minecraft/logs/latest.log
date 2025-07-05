@@ -100,3 +100,6 @@
 [04:17:18] [Server thread/WARN]: Luis512MC moved too quickly! 8.638777119078213,13.540430962834478,6.751144274424632
 [04:27:01] [Server thread/INFO]: Luis512MC lost connection: Disconnected
 [04:27:01] [Server thread/INFO]: Luis512MC left the game
+[04:33:18] [User Authenticator #2/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
+[04:33:20] [Server thread/INFO]: Luis512MC joined the game
+[04:33:20] [Server thread/INFO]: Luis512MC[/127.48.121.197:57847] logged in with entity id 6017 at ([world]-949.7379817353243, 61.3596849356822, -2274.658411230026)
