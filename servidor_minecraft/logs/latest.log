@@ -91,3 +91,12 @@
 [03:03:56] [User Authenticator #0/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
 [03:04:00] [Server thread/INFO]: Luis512MC joined the game
 [03:04:00] [Server thread/INFO]: Luis512MC[/127.48.121.197:34395] logged in with entity id 12 at ([world]-961.57244242151, 65.0, -2219.569815026969)
+[03:17:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Luis512MC> xd
+[03:21:58] [Server thread/WARN]: Luis512MC moved too quickly! 6.747410216195476,3.380023674395531,-7.296796675466339
+[03:24:43] [Server thread/WARN]: Luis512MC moved wrongly!
+[03:25:38] [Server thread/WARN]: Luis512MC moved wrongly!
+[03:25:48] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username CrashBlock73577
+[03:25:48] [localSession-7-2/INFO]: [Geyser-Spigot] CrashBlock73577 (logged in as: CrashBlock73577) has connected to the Java server
+[03:25:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 joined (UUID: 00000000-0000-0000-0009-01f00bc69dfd)
+[03:25:49] [Server thread/INFO]: .CrashBlock73577 joined the game
+[03:25:49] [Server thread/INFO]: .CrashBlock73577[/127.0.0.1:0] logged in with entity id 3572 at ([world]39.49561, 111.0, -58.032406)
