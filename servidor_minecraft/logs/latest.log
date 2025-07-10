@@ -1,408 +1,97 @@
-[04:26:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[04:26:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[04:26:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:26:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[04:26:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[04:09:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[04:09:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[04:09:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:09:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[04:09:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.5), ViaVersion (5.4.1), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[04:26:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:26:32] [ServerMain/INFO]: Loaded 1370 recipes
-[04:26:32] [ServerMain/INFO]: Loaded 1481 advancements
-[04:26:32] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[04:26:32] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 221.3ms
-[04:26:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[04:26:32] [Server thread/INFO]: Loading properties
-[04:26:32] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[04:26:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:26:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:26:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:26:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:26:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:26:33] [Server thread/INFO]: Default game type: SURVIVAL
-[04:26:33] [Server thread/INFO]: Generating keypair
-[04:26:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:26:33] [Server thread/INFO]: Using epoll channel type
-[04:26:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:26:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:26:34] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[04:26:35] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:26:35] [Server thread/INFO]: [floodgate] Took 846ms to boot Floodgate
-[04:26:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
-[04:26:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
-[04:26:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:26:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:26:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
-[04:26:36] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[04:26:37] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:26:37] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:26:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:26:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
-[04:26:37] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[04:26:37] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:26:38] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:26:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:26:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:26:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:26:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:26:38] [Server thread/INFO]: Preparing level "world"
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.5
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 9bd68f3
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:26:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:26:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:26:38] [Server thread/INFO]: Preparing spawn area: 0%
-[04:26:39] [Server thread/INFO]: Preparing spawn area: 0%
-[04:26:39] [Server thread/INFO]: Preparing spawn area: 0%
-[04:26:39] [Server thread/INFO]: Time elapsed: 1023 ms
-[04:26:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:26:39] [Server thread/INFO]: Preparing spawn area: 0%
-[04:26:39] [Server thread/INFO]: Time elapsed: 258 ms
-[04:26:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:26:40] [Server thread/INFO]: Preparing spawn area: 0%
-[04:26:40] [Server thread/INFO]: Time elapsed: 140 ms
-[04:26:40] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[04:26:40] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
-[04:26:40] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[04:26:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[04:26:40] [Server thread/INFO]: [spark] Starting background profiler...
-[04:26:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:26:41] [Server thread/INFO]: [Geyser-Spigot] 
-[04:26:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
-[04:26:41] [Server thread/INFO]: [Geyser-Spigot] 
-[04:26:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:26:45] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4196
-[04:26:45] [Server thread/INFO]: [Geyser-Spigot] Done (3.953s)! Run /geyser help for help!
-[04:26:45] [Server thread/INFO]: Done preparing level "world" (7.434s)
-[04:26:45] [Server thread/INFO]: Running delayed init tasks
-[04:26:45] [Server thread/INFO]: Done (22.362s)! For help, type "help"
-[04:26:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:29:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username CrashBlock73577
-[04:29:44] [localSession-7-2/INFO]: [Geyser-Spigot] CrashBlock73577 (logged in as: CrashBlock73577) has connected to the Java server
-[04:29:45] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 joined (UUID: 00000000-0000-0000-0009-01f00bc69dfd)
-[04:29:45] [Server thread/INFO]: .CrashBlock73577 joined the game
-[04:29:46] [Server thread/INFO]: .CrashBlock73577[/127.0.0.1:0] logged in with entity id 24 at ([world]130.29999, 117.0, 27.261429)
-[04:31:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.CrashBlock73577> papu
-[04:31:21] [Async Chat Thread - #0/INFO]: [Not Secure] <.CrashBlock73577> encontre una fortaleza
-[04:32:27] [Server thread/INFO]: .CrashBlock73577 froze to death
-[04:33:08] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] CrashBlock73577 has disconnected from the Java server because of Bedrock client timed out
-[04:33:08] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 disconnected
-[04:33:08] [Server thread/INFO]: .CrashBlock73577 lost connection: Disconnected
-[04:33:08] [Server thread/INFO]: .CrashBlock73577 left the game
-[04:35:38] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username CrashBlock73577
-[04:35:38] [localSession-7-3/INFO]: [Geyser-Spigot] CrashBlock73577 (logged in as: CrashBlock73577) has connected to the Java server
-[04:35:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 joined (UUID: 00000000-0000-0000-0009-01f00bc69dfd)
-[04:35:38] [Server thread/INFO]: .CrashBlock73577 joined the game
-[04:35:38] [Server thread/INFO]: .CrashBlock73577[/127.0.0.1:0] logged in with entity id 620 at ([world]113.201645, 108.0, -19.30001)
-[04:37:30] [Server thread/INFO]: .CrashBlock73577 has made the advancement [Not Today, Thank You]
-[04:38:20] [Server thread/INFO]: .CrashBlock73577 was shot by Pillager
-[04:39:12] [Server thread/WARN]: .CrashBlock73577 moved wrongly!
-[04:41:00] [Server thread/INFO]: .CrashBlock73577 was shot by Pillager
-[04:41:44] [Server thread/INFO]: .CrashBlock73577 has made the advancement [Suit Up]
-[04:42:08] [Server thread/INFO]: .CrashBlock73577 has made the advancement [Isn't It Iron Pick]
-[04:42:56] [Server thread/WARN]: .CrashBlock73577 moved wrongly!
-[04:45:40] [Server thread/INFO]: .CrashBlock73577 has made the advancement [Voluntary Exile]
-[04:48:19] [Server thread/INFO]: .CrashBlock73577 has made the advancement [We Need to Go Deeper]
-[04:56:23] [User Authenticator #0/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[04:56:25] [Server thread/INFO]: Jogitoramon joined the game
-[04:56:25] [Server thread/INFO]: Jogitoramon[/127.48.121.197:46105] logged in with entity id 3891 at ([world]56.52211754086516, 92.0, -15.699999988079071)
-[04:56:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Jogitoramon> hola
-[04:56:38] [Async Chat Thread - #2/INFO]: [Not Secure] <.CrashBlock73577> hola Jorge
-[04:57:10] [Server thread/INFO]: Jogitoramon lost connection: Timed out
-[04:57:10] [Server thread/INFO]: Jogitoramon left the game
-[04:57:37] [User Authenticator #1/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[04:57:38] [Server thread/INFO]: Jogitoramon joined the game
-[04:57:38] [Server thread/INFO]: Jogitoramon[/127.48.121.197:60987] logged in with entity id 4078 at ([world]66.89336100003409, 96.0, -11.860972157317452)
-[04:58:14] [Async Chat Thread - #4/INFO]: [Not Secure] <Jogitoramon> xd
-[04:58:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Jogitoramon> que haces aqui
-[04:58:35] [Async Chat Thread - #4/INFO]: [Not Secure] <.CrashBlock73577> picando oro
-[04:58:54] [Async Chat Thread - #4/INFO]: [Not Secure] <.CrashBlock73577> tienesmadera
-[04:59:07] [Async Chat Thread - #4/INFO]: [Not Secure] <Jogitoramon> solo eso
-[04:59:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Jogitoramon> con eso basta
-[04:59:18] [Async Chat Thread - #4/INFO]: [Not Secure] <.CrashBlock73577> asi esta bien
-[04:59:24] [Async Chat Thread - #4/INFO]: [Not Secure] <.CrashBlock73577> gracias
-[05:01:41] [Async Chat Thread - #6/INFO]: [Not Secure] <Jogitoramon> voy por un poco mas de madera va
-[05:01:47] [Async Chat Thread - #6/INFO]: [Not Secure] <.CrashBlock73577> ok
-[05:02:38] [Server thread/INFO]: Jogitoramon lost connection: Timed out
-[05:02:38] [Server thread/INFO]: Jogitoramon left the game
-[05:03:18] [User Authenticator #2/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[05:03:20] [Server thread/INFO]: Jogitoramon joined the game
-[05:03:20] [Server thread/INFO]: Jogitoramon[/127.48.121.197:57371] logged in with entity id 4787 at ([world]55.82207287780172, 92.0, -16.76249998807907)
-[05:04:05] [Server thread/INFO]: Jogitoramon lost connection: Timed out
-[05:04:05] [Server thread/INFO]: Jogitoramon left the game
-[05:05:31] [Server thread/INFO]: .CrashBlock73577 was slain by Magma Cube
-[05:06:12] [User Authenticator #3/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[05:06:14] [Server thread/INFO]: Jogitoramon joined the game
-[05:06:14] [Server thread/INFO]: Jogitoramon[/127.48.121.197:55357] logged in with entity id 5233 at ([world]55.5, 92.0, -15.5)
-[05:06:59] [Server thread/INFO]: Jogitoramon lost connection: Timed out
-[05:06:59] [Server thread/INFO]: Jogitoramon left the game
-[05:07:52] [User Authenticator #4/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[05:07:53] [Server thread/INFO]: Jogitoramon joined the game
-[05:07:53] [Server thread/INFO]: Jogitoramon[/127.48.121.197:53129] logged in with entity id 5572 at ([world]77.61123558419035, 103.25220334025373, -4.213889751636926)
-[05:08:38] [Server thread/INFO]: Jogitoramon lost connection: Timed out
-[05:08:38] [Server thread/INFO]: Jogitoramon left the game
-[05:09:23] [User Authenticator #5/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
-[05:09:24] [Server thread/INFO]: Luis512MC joined the game
-[05:09:24] [Server thread/INFO]: Luis512MC[/127.48.121.197:59351] logged in with entity id 5776 at ([world]-1058.4691470641828, 65.0, -2373.366777208018)
-[05:09:43] [User Authenticator #5/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
-[05:09:44] [Server thread/INFO]: Jogitoramon joined the game
-[05:09:44] [Server thread/INFO]: Jogitoramon[/127.48.121.197:34099] logged in with entity id 6198 at ([world]69.70561759736107, 97.0, -10.40495043136377)
-[05:09:48] [Async Chat Thread - #8/INFO]: [Not Secure] <Luis512MC> xd
-[05:12:18] [Async Chat Thread - #10/INFO]: [Not Secure] <Luis512MC> huevo
-[05:12:24] [Async Chat Thread - #10/INFO]: [Not Secure] <Luis512MC> estás ahí?
-[05:12:42] [Async Chat Thread - #10/INFO]: [Not Secure] <.CrashBlock73577> yes
-[05:14:14] [Async Chat Thread - #12/INFO]: [Not Secure] <Luis512MC> hermoso
-[05:14:57] [Async Chat Thread - #12/INFO]: [Not Secure] <Jogitoramon> hermoso
-[05:15:03] [Async Chat Thread - #12/INFO]: [Not Secure] <Jogitoramon> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-[05:15:08] [Async Chat Thread - #12/INFO]: [Not Secure] <Luis512MC> ?
-[05:15:32] [Async Chat Thread - #12/INFO]: [Not Secure] <Jogitoramon> teta
-[05:15:45] [Async Chat Thread - #12/INFO]: [Not Secure] <.CrashBlock73577> xd
-[05:15:58] [Async Chat Thread - #12/INFO]: [Not Secure] <Luis512MC> ?
-[05:17:16] [Async Chat Thread - #14/INFO]: [Not Secure] <Jogitoramon> mau ayuda
-[05:17:21] [Async Chat Thread - #14/INFO]: [Not Secure] <Luis512MC> xd4
-[05:17:38] [Async Chat Thread - #14/INFO]: [Not Secure] <Jogitoramon> gracias
-[05:17:50] [Async Chat Thread - #14/INFO]: [Not Secure] <.CrashBlock73577> de nada
-[05:18:11] [Async Chat Thread - #14/INFO]: [Not Secure] <.CrashBlock73577> llego un comerciante
-[05:22:54] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> hoy les voy a contar
-[05:22:59] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> la historia de un jugador
-[05:23:10] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> que jugaba pvp y siempre fue el peor
-[05:23:30] [Async Chat Thread - #16/INFO]: [Not Secure] <.CrashBlock73577> se burlaban de el
-[05:24:29] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> conosco a alguien que pueda ayudar
-[05:24:30] [Async Chat Thread - #16/INFO]: [Not Secure] <.CrashBlock73577> xdxddd
-[05:24:40] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> si dices que tu puta madre te despido
-[05:24:52] [Async Chat Thread - #16/INFO]: [Not Secure] <.CrashBlock73577> MI VRGAAA
-[05:24:59] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> AAAAAAAAAAAAAAAAAAAA
-[05:25:07] [Async Chat Thread - #16/INFO]: [Not Secure] <.CrashBlock73577> jjajaj
-[05:25:25] [Server thread/INFO]: Jogitoramon was shot by Skeleton
-[05:25:35] [Async Chat Thread - #16/INFO]: [Not Secure] <Luis512MC> hermoso final
-[05:26:03] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> gracias
-[05:26:15] [Async Chat Thread - #16/INFO]: [Not Secure] <Luis512MC> you're welcome
-[05:27:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Jogitoramon> voy por mas madera xd
-[05:27:09] [Async Chat Thread - #16/INFO]: [Not Secure] <.CrashBlock73577> ok jaja
-[05:27:57] [Async Chat Thread - #16/INFO]: [Not Secure] <Luis512MC> segundo doble cofre
-[05:28:02] [Server thread/INFO]: Luis512MC has made the advancement [Ol' Betsy]
-[05:28:07] [Server thread/INFO]: Luis512MC has made the advancement [Take Aim]
-[05:29:35] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> segundo doble cofre
-[05:29:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
-yeh<--[HERE]
-[05:29:52] [Async Chat Thread - #18/INFO]: [Not Secure] <Jogitoramon> primer me vale vrg
-[05:30:10] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> deberías de empezarte a preocupar
-[05:31:04] [Async Chat Thread - #18/INFO]: [Not Secure] <Jogitoramon> me preocupo por ti eso basta
-[05:31:13] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> no
-[05:31:19] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> dale clic derecho a tu cama
-[05:31:26] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> solo digo
-[05:31:29] [Server thread/INFO]: .CrashBlock73577 has made the advancement [Sweet Dreams]
-[05:31:39] [Async Chat Thread - #18/INFO]: [Not Secure] <Jogitoramon> xs
-[05:31:43] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> cuantos jugadores hay?
-[05:31:49] [Async Chat Thread - #18/INFO]: [Not Secure] <.CrashBlock73577> tr3s
-[05:32:03] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> y los que dice cuando te duermes?
-[05:32:25] [Async Chat Thread - #18/INFO]: [Not Secure] <Jogitoramon> yo toy nether
-[05:32:34] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> adivina quien más
-[05:32:35] [Async Chat Thread - #18/INFO]: [Not Secure] <.CrashBlock73577> ya dormi xd
-[05:32:42] [Async Chat Thread - #18/INFO]: [Not Secure] <.CrashBlock73577> quien?
-[05:32:53] [Async Chat Thread - #18/INFO]: [Not Secure] <Luis512MC> sabe
-[05:33:01] [Async Chat Thread - #18/INFO]: [Not Secure] <.CrashBlock73577> xdxdddd
-[05:33:12] [Async Chat Thread - #18/INFO]: [Not Secure] <.CrashBlock73577> osea no hay nadie más
-[05:34:48] [Async Chat Thread - #20/INFO]: [Not Secure] <.CrashBlock73577> habra una aldea cerca?
-[05:37:18] [Async Chat Thread - #22/INFO]: [Not Secure] <Jogitoramon> estoy ansioso deberas
-[05:37:27] [Async Chat Thread - #22/INFO]: [Not Secure] <.CrashBlock73577> jsjsjs
-[05:39:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
-d<--[HERE]
-[05:40:46] [Async Chat Thread - #24/INFO]: [Not Secure] <Jogitoramon> porque
-[05:44:40] [Async Chat Thread - #26/INFO]: [Not Secure] <Jogitoramon> porque
-[05:45:00] [Async Chat Thread - #26/INFO]: [Not Secure] <.CrashBlock73577> pos Nomas
-[05:45:17] [Async Chat Thread - #26/INFO]: [Not Secure] <Jogitoramon> si te daba bien duro en las noches tardes y mañans te metia mi verga en tu boca y tu me la mamabas me sacabas 4 litros dos en la noche y dos en la mañana
-[05:45:33] [Async Chat Thread - #26/INFO]: [Not Secure] <Jogitoramon> ahora entiendo porque ya no quieres que te la sambuta
-[05:45:36] [Async Chat Thread - #26/INFO]: [Not Secure] <Luis512MC> insultos mas peruanos de la historia
-[05:45:40] [Async Chat Thread - #26/INFO]: [Not Secure] <Luis512MC> top 1:
-[05:45:53] [Async Chat Thread - #26/INFO]: [Not Secure] <.CrashBlock73577> chao gente
-[05:45:53] [Async Chat Thread - #26/INFO]: [Not Secure] <Jogitoramon> que te llene de mecos tu espalda la boca y tu pucha
-[05:46:04] [Async Chat Thread - #26/INFO]: [Not Secure] <Luis512MC> chao ctm
-[05:46:04] [Server thread/INFO]: .CrashBlock73577 lost connection: Disconnected
-[05:46:04] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 disconnected
-[05:46:04] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] CrashBlock73577 has disconnected from the Java server because of Bedrock client disconnected
-[05:46:04] [Server thread/INFO]: .CrashBlock73577 left the game
-[05:46:10] [Async Chat Thread - #26/INFO]: [Not Secure] <Jogitoramon> me cambiaste por una panocha bien prieta
-[05:46:22] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> porque te volteaste y te hiciste lesbiana
-[05:46:24] [Async Chat Thread - #27/INFO]: [Not Secure] <Luis512MC> ahora eres presa fácil jorge
-[05:46:34] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> ahora que se fue
-[05:46:37] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> como estas
-[05:46:40] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> esras bien
-[05:46:43] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> te sientes bien
-[05:46:48] [Async Chat Thread - #27/INFO]: [Not Secure] <Luis512MC> estoy yendo a por ti
-[05:46:51] [Async Chat Thread - #27/INFO]: [Not Secure] <Jogitoramon> algo que te moleste?
-[05:47:51] [Server thread/INFO]: Jogitoramon was slain by Zombie
-[05:49:09] [Server thread/INFO]: Jogitoramon was impaled on a stalagmite
-[06:01:36] [Async Chat Thread - #28/INFO]: [Not Secure] <Luis512MC> uy
-[06:03:12] [Async Chat Thread - #30/INFO]: [Not Secure] <Luis512MC> uy
-[06:04:42] [Server thread/INFO]: Luis512MC has made the advancement [Sneak 100]
-[06:09:36] [Async Chat Thread - #32/INFO]: [Not Secure] <Luis512MC> que haces bro?
-[06:09:46] [Async Chat Thread - #32/INFO]: [Not Secure] <Jogitoramon> minando
-[06:10:04] [Async Chat Thread - #32/INFO]: [Not Secure] <Jogitoramon> y pensando si abrir mis sentimientos fue buena idea
-[06:10:16] [Async Chat Thread - #32/INFO]: [Not Secure] <Jogitoramon> oh todavia tengo tiempo de borrar el mensaje
-[06:10:28] [Async Chat Thread - #32/INFO]: [Not Secure] <Luis512MC> y que más?
-[06:10:32] [Async Chat Thread - #32/INFO]: [Not Secure] <Luis512MC> contame
-[06:10:39] [Async Chat Thread - #32/INFO]: [Not Secure] <Luis512MC> deja de hacer lo que estás haciendo
-[06:10:44] [Async Chat Thread - #32/INFO]: [Not Secure] <Luis512MC> contame
-[06:10:57] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> es que mira xd
-[06:11:02] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> miro
-[06:11:04] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> estaba hablando con una mushasha
-[06:11:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
-ss<--[HERE]
-[06:11:15] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> se puede saber?
-[06:11:18] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> quien?
-[06:11:28] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y pues me pregunto si pues me gustaba y le dije si me gustaste y un poco ahorita
-[06:11:37] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> ooooooowwwwwwwwwwwwwwwwww
-[06:11:44] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y me dijo es que tu tambien me gustabas
-[06:11:54] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> eso es todo campeón
-[06:11:57] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero es que en ese lapzo habia dejado a su novio
-[06:12:02] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> oh non
-[06:12:09] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y pues regresaron
-[06:12:13] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tnooooooooooooooooooooo
-[06:12:16] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> bro
-[06:12:24] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> te sientes triste?
-[06:12:24] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y la verdad oh era quedarme con las ganas de no decir nada
-[06:12:29] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> oh decirlo
-[06:12:43] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> en si no porque pues ya tenia una semana
-[06:12:51] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> xd
-[06:12:54] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> bro
-[06:12:56] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero el saber que si le gystaba si dolio
-[06:13:00] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> te puedo decir algo?
-[06:13:08] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> que cosa bro?
-[06:13:13] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> yo siempre estaré contigo, en las buenas, y en las malas
-[06:13:22] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> por eso somos papus
-[06:13:38] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> ya me largo
-[06:13:42] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y tu?
-[06:13:50] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> vas bien en el amor?
-[06:13:59] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> eso es algo que a usted no le importa
-[06:14:07] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tpor que se va a poner a llorar
-[06:14:12] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> bueno la otra vez la regue xd
-[06:14:25] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> mi vida es una mierda ya tu sabe
-[06:14:32] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tu ntp
-[06:14:35] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> oye bro
-[06:14:42] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pues no se we es que toy de pendejo we por no haber dicho eso y el como me sentia
-[06:14:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> no me teletransporté hasta acá
-[06:14:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> que pasa bro?
-[06:14:57] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> llegué desde el nether
-[06:15:02] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> desde hace cuanto te tardaste
-[06:15:04] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> diablo
-[06:15:07] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> 1 hora
-[06:15:14] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> asu madre un buen
-[06:15:28] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> hice mi clásico tunel
-[06:15:39] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> no está tan lejos de los tuyos
-[06:15:44] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> es el principal
-[06:15:50] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> bro
-[06:15:52] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> es que me falta perfeccionarlos
-[06:16:12] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> que pasa bro?
-[06:16:12] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tqm bro
-[06:16:23] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> yo tambien bro gracias por todo
-[06:16:34] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> ya me voy pq se me quebró el pico xd
-[06:16:38] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero la queria tanto
-[06:16:42] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> xd
-[06:16:44] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> justo cuando sali de mi escondite
-[06:17:34] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> oh
-[06:17:37] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> es verdad
-[06:17:46] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> por ahí hay algunas cosas del warden
-[06:17:46] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> de que?
-[06:17:52] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> no se si ya las viste xd
-[06:17:59] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> creo que no
-[06:18:02] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> yo ya me iré a mimir
-[06:18:07] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> bro
-[06:18:13] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> sale bb apaga el server
-[06:18:15] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> mañana hablamos de esto va?
-[06:18:28] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> bueno
-[06:18:30] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> sale bb es que ya me humille
-[06:18:32] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> thoy al rato
-[06:18:38] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> ya haber que me dice
-[06:18:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> y te paso chisme bien
-[06:18:51] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> te digo algo
-[06:18:58] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> ando en las mismas que tú
-[06:19:01] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> que cosa?
-[06:19:04] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> neta
-[06:19:12] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> pero yo si logré quitar al pendejo de su ex
-[06:19:24] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> conquistarla es lo dificil
-[06:19:27] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> imposible
-[06:19:29] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> es que realmente we prefiero decir lo que siento a guardarlo ademas ya ni la voy a ver
-[06:19:41] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> x2
-[06:19:48] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero
-[06:20:00] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> de igual forma aunque encuentra a alguien mas
-[06:20:04] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> como ella no creo
-[06:20:12] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> nombre?
-[06:20:18] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> AYLEEEEEEEEEEEEEEEEEEEN
-[06:20:21] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> ese no se dice JAJAJA
-[06:20:33] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tyo te digo el de ella
-[06:20:37] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> Ameyali
-[06:20:40] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> no es necesario
-[06:20:48] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> bueno ya lo dijiste
-[06:21:05] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> es la prima del pedro XD
-[06:21:11] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> Se llama nahomi
-[06:21:13] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> abigaíl
-[06:21:16] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> ah
-[06:21:18] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> xd
-[06:21:27] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> na bro JAJJAJJAJA
-[06:21:36] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> si es que hay una abi melo
-[06:21:39] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tprima del pepe
-[06:21:46] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> si asi es beybe
-[06:21:50] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero esa es otra
-[06:22:00] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> tamos bien pendejos we
-[06:22:10] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> algun dia crees que nos quieran bro?
-[06:22:18] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tu hermana si
-[06:22:22] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> no la neta no
-[06:22:35] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tu si
-[06:22:38] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> no somos ni el mau ni el alez
-[06:22:39] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> tienes carisma
-[06:22:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Luis512MC> todo
-[06:22:54] [Async Chat Thread - #33/INFO]: [Not Secure] <Jogitoramon> pero me da pena todo xd
-[06:25:10] [Async Chat Thread - #34/INFO]: [Not Secure] <Jogitoramon> bye bro buenas noches
-[06:25:12] [Server thread/INFO]: Jogitoramon lost connection: Disconnected
-[06:25:12] [Server thread/INFO]: Jogitoramon left the game
-[06:33:31] [Server thread/INFO]: Luis512MC lost connection: Disconnected
-[06:33:31] [Server thread/INFO]: Luis512MC left the game
-[06:33:34] [Server thread/INFO]: Stopping the server
-[06:33:34] [Server thread/INFO]: Stopping server
-[06:33:34] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[06:33:34] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[06:33:34] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[06:33:34] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.5
-[06:33:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1
-[06:33:34] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[06:33:34] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[06:33:34] [Server thread/INFO]: Saving players
-[06:33:34] [Server thread/INFO]: Saving worlds
-[06:33:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:33:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[06:33:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[06:33:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[06:33:35] [WebSocketConnectReadThread-96/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Saved 681 block chunks, 755 entity chunks, 0 poi chunks in world 'world' in 1.10s
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[06:33:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 64 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[06:33:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[06:33:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[06:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:33:36] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[06:33:36] [Server thread/INFO]: All I/O tasks to complete
-[06:33:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[06:33:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[04:10:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:10:03] [ServerMain/INFO]: Loaded 1370 recipes
+[04:10:03] [ServerMain/INFO]: Loaded 1481 advancements
+[04:10:03] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:10:03] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 198.0ms
+[04:10:03] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[04:10:03] [Server thread/INFO]: Loading properties
+[04:10:03] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[04:10:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:10:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:10:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:10:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:10:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:10:04] [Server thread/INFO]: Default game type: SURVIVAL
+[04:10:04] [Server thread/INFO]: Generating keypair
+[04:10:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:10:04] [Server thread/INFO]: Using epoll channel type
+[04:10:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:10:04] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:10:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:10:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:10:06] [Server thread/INFO]: [floodgate] Took 1,076ms to boot Floodgate
+[04:10:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+[04:10:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+[04:10:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:10:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:10:07] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
+[04:10:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:10:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:10:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
+[04:10:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[04:10:09] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:10:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:10:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:10:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:10:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:10:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:10:09] [Server thread/INFO]: Preparing level "world"
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.5
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 9bd68f3
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.7.6) is available! Downloading update...
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:10:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[04:10:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:10:10] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 923ms
+[04:10:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[04:10:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[04:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:11] [Server thread/INFO]: Time elapsed: 1190 ms
+[04:10:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:10:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:11] [Server thread/INFO]: Preparing spawn area: 22%
+[04:10:12] [Server thread/INFO]: Time elapsed: 867 ms
+[04:10:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:10:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:12] [Server thread/INFO]: Time elapsed: 219 ms
+[04:10:12] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:10:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+[04:10:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[04:10:12] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[04:10:13] [Server thread/INFO]: [spark] Starting background profiler...
+[04:10:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:10:14] [Server thread/INFO]: [Geyser-Spigot] 
+[04:10:14] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
+[04:10:14] [Server thread/INFO]: [Geyser-Spigot] 
+[04:10:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:10:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4196
+[04:10:18] [Server thread/INFO]: [Geyser-Spigot] Done (3.885s)! Run /geyser help for help!
+[04:10:18] [Server thread/INFO]: Done preparing level "world" (9.058s)
+[04:10:18] [Server thread/INFO]: Running delayed init tasks
+[04:10:18] [Server thread/INFO]: Done (28.319s)! For help, type "help"
+[04:10:18] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:10:33] [User Authenticator #0/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
+[04:10:36] [Server thread/INFO]: Luis512MC joined the game
+[04:10:36] [Server thread/INFO]: Luis512MC[/127.48.121.197:48087] logged in with entity id 20 at ([world]-962.1667502284522, 66.0, -2216.2337798782737)
+[04:18:51] [User Authenticator #1/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
+[04:18:53] [Server thread/INFO]: Jogitoramon joined the game
+[04:18:53] [Server thread/INFO]: Jogitoramon[/127.48.121.197:50203] logged in with entity id 1271 at ([world]51.6000448944035, -58.0, 147.69999998807907)
