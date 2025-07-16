@@ -274,3 +274,71 @@ ssss<--[HERE]
 sss<--[HERE]
 [05:55:19] [Async Chat Thread - #46/INFO]: [Not Secure] <Luis512MC> -402 73 457
 [06:01:04] [Server thread/INFO]: Luis512MC burned to death
+[06:16:09] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> bro
+[06:16:16] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> tu casa está un poco
+[06:16:20] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> caliente
+[06:16:25] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> ya tu sabe
+[06:16:48] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> no, ahora no estoy debajo del cofre
+[06:16:49] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> xd
+[06:17:11] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> bro
+[06:17:25] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> arriba si se está quemando
+[06:17:27] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> XD
+[06:17:51] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> en serio coño
+[06:18:20] [Async Chat Thread - #48/INFO]: [Not Secure] <Jogitoramon> ni pedo
+[06:18:26] [Async Chat Thread - #48/INFO]: [Not Secure] <Jogitoramon> esta era la de prueba
+[06:18:37] [Async Chat Thread - #48/INFO]: [Not Secure] <Luis512MC> $v$
+[06:19:42] [Async Chat Thread - #50/INFO]: [Not Secure] <Luis512MC> foto
+[06:19:48] [Async Chat Thread - #50/INFO]: [Not Secure] <Jogitoramon> va
+[06:19:51] [Async Chat Thread - #50/INFO]: [Not Secure] <Jogitoramon> tomala tu
+[06:21:04] [Async Chat Thread - #52/INFO]: [Not Secure] <Luis512MC> ahora si a dormir xd
+[06:21:10] [Async Chat Thread - #52/INFO]: [Not Secure] <Luis512MC> ya es noche
+[06:21:11] [Async Chat Thread - #52/INFO]: [Not Secure] <Jogitoramon> ey muy buenas a todos guapisimos aqui jorgito777
+[06:21:17] [Async Chat Thread - #52/INFO]: [Not Secure] <Luis512MC> hermoso
+[06:21:23] [Async Chat Thread - #52/INFO]: [Not Secure] <Jogitoramon> va
+[06:21:29] [Async Chat Thread - #52/INFO]: [Not Secure] <Jogitoramon> ahi mañana buenas noches bro
+[06:21:37] [Async Chat Thread - #52/INFO]: [Not Secure] <Luis512MC> igual
+[06:21:39] [Server thread/INFO]: Luis512MC lost connection: Disconnected
+[06:21:39] [Server thread/INFO]: Luis512MC left the game
+[06:21:43] [Server thread/INFO]: Jogitoramon lost connection: Disconnected
+[06:21:43] [Server thread/INFO]: Jogitoramon left the game
+[06:21:47] [Server thread/INFO]: Stopping the server
+[06:21:47] [Server thread/INFO]: Stopping server
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[06:21:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.6
+[06:21:47] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1
+[06:21:47] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[06:21:47] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[06:21:47] [Server thread/INFO]: Saving players
+[06:21:47] [Server thread/INFO]: Saving worlds
+[06:21:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:21:47] [WebSocketConnectReadThread-264/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 80 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[06:21:47] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[06:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Saved 744 block chunks, 772 entity chunks, 0 poi chunks in world 'world_nether' in 0.94s
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[06:21:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[06:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[06:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:21:49] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[06:21:49] [Server thread/INFO]: All I/O tasks to complete
+[06:21:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:21:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
