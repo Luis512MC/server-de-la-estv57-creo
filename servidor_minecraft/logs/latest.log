@@ -187,3 +187,19 @@ ls<--[HERE]
 [04:08:42] [Server thread/INFO]: Jogitoramon[/127.48.121.197:38513] logged in with entity id 18746 at ([world]-3246.366632588454, 76.0, 3663.9982604696143)
 [04:09:27] [Server thread/INFO]: Jogitoramon lost connection: Timed out
 [04:09:27] [Server thread/INFO]: Jogitoramon left the game
+[04:14:51] [User Authenticator #14/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
+[04:14:53] [Server thread/INFO]: Jogitoramon joined the game
+[04:14:53] [Server thread/INFO]: Jogitoramon[/127.48.121.197:47217] logged in with entity id 20461 at ([world]-3253.1408660119005, 77.0, 3658.929372631582)
+[04:15:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Jogitoramon> que rollo plebes
+[04:15:35] [Async Chat Thread - #10/INFO]: [Not Secure] <.CrashBlock73577> hola papu
+[04:15:38] [Server thread/INFO]: Jogitoramon lost connection: Timed out
+[04:15:38] [Server thread/INFO]: Jogitoramon left the game
+[04:15:49] [User Authenticator #14/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
+[04:15:51] [Server thread/INFO]: Jogitoramon joined the game
+[04:15:51] [Server thread/INFO]: Jogitoramon[/127.48.121.197:52611] logged in with entity id 20873 at ([world]-3275.9639169524676, 78.0, 3678.0739149798765)
+[04:16:36] [Server thread/INFO]: Jogitoramon lost connection: Timed out
+[04:16:36] [Server thread/INFO]: Jogitoramon left the game
+[04:18:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] CrashBlock73577 has disconnected from the Java server because of Bedrock client disconnected
+[04:18:09] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .CrashBlock73577 disconnected
+[04:18:09] [Server thread/INFO]: .CrashBlock73577 lost connection: Disconnected
+[04:18:09] [Server thread/INFO]: .CrashBlock73577 left the game
