@@ -132,3 +132,19 @@ ls<--[HERE]
 [03:26:09] [Server thread/INFO]: Luis512MC joined the game
 [03:26:09] [Server thread/INFO]: Luis512MC[/127.48.121.197:41097] logged in with entity id 6182 at ([world]-961.031436913663, 65.875, -2220.354581514262)
 [03:35:18] [Server thread/INFO]: .CrashBlock73577 was slain by Zombie
+[03:54:08] [Server thread/WARN]: .CrashBlock73577 moved wrongly!
+[03:58:43] [Server thread/INFO]: Luis512MC lost connection: Timed out
+[03:58:43] [Server thread/INFO]: Luis512MC left the game
+[03:59:21] [User Authenticator #7/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
+[03:59:23] [Server thread/INFO]: Luis512MC joined the game
+[03:59:23] [Server thread/INFO]: Luis512MC[/127.48.121.197:34101] logged in with entity id 16141 at ([world_nether]-22.30000001192093, 65.0, -130.73442965611306)
+[04:00:08] [Server thread/INFO]: Luis512MC lost connection: Timed out
+[04:00:08] [Server thread/INFO]: Luis512MC left the game
+[04:00:43] [User Authenticator #8/INFO]: UUID of player Jogitoramon is 7fb7be7d-281c-3be4-a990-a8900131a4bc
+[04:00:45] [Server thread/INFO]: Jogitoramon joined the game
+[04:00:45] [Server thread/INFO]: Jogitoramon[/127.48.121.197:41345] logged in with entity id 16410 at ([world_nether]-397.6786927822024, 75.0, 454.30000001192093)
+[04:01:31] [Server thread/INFO]: Jogitoramon lost connection: Timed out
+[04:01:31] [Server thread/INFO]: Jogitoramon left the game
+[04:01:34] [User Authenticator #8/INFO]: UUID of player Luis512MC is 5481e4e4-6be3-3172-8677-4830fb8a2f43
+[04:01:36] [Server thread/INFO]: Luis512MC joined the game
+[04:01:36] [Server thread/INFO]: Luis512MC[/127.48.121.197:38129] logged in with entity id 16867 at ([world_nether]-29.69999998807907, 89.49930925457244, -67.10457456445022)
